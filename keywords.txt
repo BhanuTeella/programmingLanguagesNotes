@@ -1,0 +1,41 @@
+Important Keywords:
+
+C++
+int: used to declare integer variables.
+double: used to declare floating-point variables.
+if, else: used for conditional statements.
+for, while: used for loops.
+class: used to define a class.
+public, private: used to specify access levels for class members.
+virtual: used to declare a virtual function.
+new, delete: used for dynamic memory allocation and deallocation.
+
+Python
+if, elif, else: used for conditional statements.
+for, while: used for loops.
+def: used to define a function.
+class: used to define a class.
+import: used to import modules.
+try, except: used for exception handling.
+True, False: used to represent boolean values.
+None: used to represent null values.
+
+JavaScript
+var, let, const: used to declare variables.
+if, else: used for conditional statements.
+for, while: used for loops.
+function: used to define a function.
+class: used to define a class.
+this: used to refer to the current object.
+new: used to create an instance of a class.
+async, await: used for asynchronous programming.
+
+Java
+int, double, float, boolean: used to declare variables.
+if, else: used for conditional statements.
+for, while: used for loops.
+class: used to define a class.
+public, private: used to specify access levels for class members.
+extends, implements: used for inheritance and interfaces.
+static: used to declare a static variable or method.
+new: used to create an instance of a class.
