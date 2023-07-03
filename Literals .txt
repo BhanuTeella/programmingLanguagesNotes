@@ -1,0 +1,19 @@
+Literals are values that are directly written into the code of a program. Here are some examples of literals in C++, Python, Java, and JavaScript:
+
+Integer literals: In C++, Java, and JavaScript, integer literals are written as a sequence of digits, like 42. In Python, integers can be written as a sequence of digits, like 42, or in hexadecimal format, like 0x2a.
+Floating-point literals: In C++, Java, and JavaScript, floating-point literals are written as a sequence of digits with a decimal point, like 3.14. In Python, floating-point literals can be written in the same way, or in scientific notation, like 3.14e-2.
+Boolean literals: In C++, Java, and JavaScript, boolean literals are written as true or false. In Python, boolean literals are written as True or False.
+String literals: In C++ and Java, string literals are written in double quotes, like "hello". In Python and JavaScript, string literals can be written in single or double quotes, like 'hello' or "hello".
+Character literals: In C++, character literals are written in single quotes, like 'a'. In Java, character literals are also written in single quotes, like 'a'. In Python and JavaScript, there is no separate character data type, so characters are represented as strings with a length of 1, like 'a' or "a".
+
+
+
+Escape sequences are special characters that are used to represent certain characters that cannot be easily typed or displayed directly in a string. Here are some examples of escape sequences in C++, Python, Java, and JavaScript:
+
+Some common escape sequences used in all four languages include:
+
+\n: newline character
+\t: tab character
+\": double quote character
+\': single quote character
+\\: backslash character

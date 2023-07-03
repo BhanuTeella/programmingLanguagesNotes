@@ -1,0 +1,38 @@
+Punctuation symbols, also known as punctuators, are used in programming languages to separate and organize code. Here are some examples of punctuators and their usage in C++, Python, Java, and JavaScript:
+
+C++: C++ uses punctuation symbols like parentheses (), curly braces {}, square brackets [], commas ,, semicolons ;, and the period .. Some common uses of these punctuators include:
+
+    Parentheses () are used to enclose function arguments and to control the order of operations in expressions.
+    Curly braces {} are used to enclose blocks of code, such as function bodies and loops.
+    Square brackets [] are used to declare arrays and to access individual elements of an array.
+    Commas , are used to separate function arguments and to separate elements in an array or list.
+    Semicolons ; are used to terminate statements.
+    The period . is used to access members of an object or a class.
+
+
+Python: Python uses punctuation symbols like parentheses (), colons :, commas ,, and periods .. Some common uses of these punctuators include:
+
+    Parentheses () are used to enclose function arguments and to control the order of operations in expressions.
+    Colons : are used to introduce blocks of code, such as function bodies and loops.
+    Commas , are used to separate function arguments and to separate elements in a tuple or a list.
+    The period . is used to access members of an object or a class.
+
+
+Java: Java uses similar punctuation symbols to C++, such as parentheses (), curly braces {}, square brackets [], commas ,, semicolons ;, and the period .. Some common uses of these punctuators include:
+
+    Parentheses () are used to enclose function arguments and to control the order of operations in expressions.
+    Curly braces {} are used to enclose blocks of code, such as function bodies and loops.
+    Square brackets [] are used to declare arrays and to access individual elements of an array.
+    Commas , are used to separate function arguments and to separate elements in an array or list.
+    Semicolons ; are used to terminate statements.
+    The period . is used to access members of an object or a class.
+
+
+JavaScript: JavaScript also uses similar punctuation symbols to C++ and Java, such as parentheses (), curly braces {}, square brackets [], commas ,, semicolons ;, and the period .. Some common uses of these punctuators include:
+
+    Parentheses () are used to enclose function arguments and to control the order of operations in expressions.
+    Curly braces {} are used to enclose blocks of code, such as function bodies and loops.
+    Square brackets [] are used to declare arrays and to access individual elements of an array.
+    Commas , are used to separate function arguments and to separate elements in an array or list.
+    Semicolons ; are used to terminate statements.
+    The period . is used to access members of an object or a class.
