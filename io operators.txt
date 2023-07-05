@@ -1,0 +1,31 @@
+C++: In C++, the input and output operators are << and >>, respectively. These operators are used with the std::cout and std::cin objects to output and input data to and from the console. For example:
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x;
+    cout << "Enter a number: ";
+    cin >> x;
+    cout << "You entered: " << x << endl;
+    return 0;
+}
+
+Python: In Python, the input and output functions are input() and print(), respectively. These functions are used to output and input data to and from the console. For example:
+x = input("Enter a number: ")
+print("You entered:", x)
+
+
+Java: In Java, the input and output functions are Scanner and System.out.println(), respectively. System.out.println() is used to output data to the console, while Scanner is used to input data from the console. For example:
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int x = scanner.nextInt();
+        System.out.println("You entered: " + x);
+    }
+}
+
+
+JavaScript: In JavaScript, the input and output functions are console.log() and prompt(), respectively. console.log() is used to output data to the console, while prompt() is used to input data from the user. For example:

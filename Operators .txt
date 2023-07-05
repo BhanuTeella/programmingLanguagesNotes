@@ -1,0 +1,37 @@
+Operators are symbols or keywords that perform operations on one or more operands in programming languages. Here are some examples of operators and their usage in C++, Python, Java, and JavaScript:
+
+C++: C++ has a wide range of operators, including arithmetic operators, comparison operators, logical operators, bitwise operators, and assignment operators. Some common operators include:
+    Arithmetic operators: +, -, *, /, %
+    Comparison operators: ==, !=, <, >, <=, >=
+    Logical operators: &&, ||, !
+    Bitwise operators: &, |, ^, ~, <<, >>
+    Assignment operators: =, +=, -=, *=, /=, %=, &=, |=, ^=, <<=, >>=
+    Unary operators: ++, --, +,-,!
+    class member operators: 
+        :: scope access/ resolution
+    conditional operator: ?  
+
+
+Python: Python also has a wide range of operators, including arithmetic operators, comparison operators, logical operators, bitwise operators, and assignment operators. Some common operators include:
+    Arithmetic operators: +, -, *, /, //, %
+    Comparison operators: ==, !=, <, >, <=, >=
+    Logical operators: and, or, not
+    Bitwise operators: &, |, ^, ~, <<, >>
+    Assignment operators: =, +=, -=, *=, /=, //=, %=, &=, |=, ^=, <<=, >>=
+
+
+Java: Java also has a wide range of operators, including arithmetic operators, comparison operators, logical operators, bitwise operators, and assignment operators. Some common operators include:
+    Arithmetic operators: +, -, *, /, %
+    Comparison operators: ==, !=, <, >, <=, >=
+    Logical operators: &&, ||, !
+    Bitwise operators: &, |, ^, ~, <<, >>, >>>
+    Assignment operators: =, +=, -=, *=, /=, %=, &=, |=, ^=, <<=, >>=, >>>=
+    
+
+
+JavaScript: JavaScript also has a wide range of operators, including arithmetic operators, comparison operators, logical operators, bitwise operators, and assignment operators. Some common operators include:
+    Arithmetic operators: +, -, *, /, %, **
+    Comparison operators: ==, !=, <, >, <=, >=
+    Logical operators: &&, ||, !
+    Bitwise operators: &, |, ^, ~, <<, >>, >>>
+    Assignment operators: =, +=, -=, *=, /=, %=, &=, |=, ^=, <<=, >>=, >>>=

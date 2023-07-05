@@ -8,6 +8,8 @@ C++: C++ uses punctuation symbols like parentheses (), curly braces {}, square b
     Commas , are used to separate function arguments and to separate elements in an array or list.
     Semicolons ; are used to terminate statements.
     The period . is used to access members of an object or a class.
+    The asterisk * is used to declare pointers, which are variables that store memory addresses.
+    an ellipsis  (...)  is used to define a function that takes a variable number of arguments.
 
 
 Python: Python uses punctuation symbols like parentheses (), colons :, commas ,, and periods .. Some common uses of these punctuators include:
@@ -16,6 +18,7 @@ Python: Python uses punctuation symbols like parentheses (), colons :, commas ,,
     Colons : are used to introduce blocks of code, such as function bodies and loops.
     Commas , are used to separate function arguments and to separate elements in a tuple or a list.
     The period . is used to access members of an object or a class.
+    an ellipsis is used to represent a slice of a sequence that includes all of the remaining elements.
 
 
 Java: Java uses similar punctuation symbols to C++, such as parentheses (), curly braces {}, square brackets [], commas ,, semicolons ;, and the period .. Some common uses of these punctuators include:
@@ -26,6 +29,7 @@ Java: Java uses similar punctuation symbols to C++, such as parentheses (), curl
     Commas , are used to separate function arguments and to separate elements in an array or list.
     Semicolons ; are used to terminate statements.
     The period . is used to access members of an object or a class.
+    an ellipsis is used to define a method that takes a variable number of arguments
 
 
 JavaScript: JavaScript also uses similar punctuation symbols to C++ and Java, such as parentheses (), curly braces {}, square brackets [], commas ,, semicolons ;, and the period .. Some common uses of these punctuators include:
@@ -36,3 +40,4 @@ JavaScript: JavaScript also uses similar punctuation symbols to C++ and Java, su
     Commas , are used to separate function arguments and to separate elements in an array or list.
     Semicolons ; are used to terminate statements.
     The period . is used to access members of an object or a class.
+    ellipsis (...) is used as the rest parameter, which allows a function to accept an indefinite number of arguments as an array. 
