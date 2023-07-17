@@ -1,0 +1,106 @@
+Variables represent named storage locations. all these langauges have variables.
+
+varibale declaration:
+c++:
+in c we need to specify varable type before declaration
+eg; int a;
+
+java:
+like c we need to declare variable type before declaration
+eg: int a;3e
+
+Python:
+We do not need to declare variable before use. python dynimically assigns type to variable based on value assigned to it.
+
+JavaScript:
+unlike python we need to declare variable. But unlike c++, we do not need to specify type,  javascript dynimically assigns type but we need to use var keyword before variable name
+eg let a=10;
+
+
+variable initialization:
+in all these langauges we can initialize variable at the time of declaration
+eg: int a=10;
+
+variable assignment:
+in all these langauges we can assign value to variable after declaration
+eg: a=10;
+
+dynamic initialization:
+in all these langauges we can assign value to variable at runtime, but variaboles must be declared before use(except for python).
+eg; float avg;
+    avg=sum/10;
+
+access modifiers: These dictate the access of variables in the program. Here are the access modifiers for variables in C++, Java, Python, and JavaScript:
+
+**C++:**
+- `const`: the variable is read-only and cannot be modified after initialization.
+- `static`: the variable is shared among all instances of the class.
+- `extern`: the variable is defined in another file and can be accessed from the current file.
+
+Here's an example of how to declare a constant variable in C++:
+
+```cpp
+class MyClass {
+public:
+    static const int MY_CONSTANT = 42;
+    // other public members
+};
+```
+
+In this example, we declare a constant integer variable `MY_CONSTANT` inside the `MyClass` class. The `static` keyword makes the variable shared among all instances of the class, and the `const` keyword makes the variable read-only.
+
+**Java:**
+- `final`: the variable is read-only and cannot be modified after initialization.
+- `static`: the variable is shared among all instances of the class.
+
+Here's an example of how to declare a constant variable in Java:
+
+```java
+public class MyClass {
+    public static final int MY_CONSTANT = 42;
+    // other public members
+}
+```
+
+In this example, we declare a constant integer variable `MY_CONSTANT` inside the `MyClass` class. The `static` keyword makes the variable shared among all instances of the class, and the `final` keyword makes the variable read-only.
+
+**Python:**
+- There is no `const` keyword in Python. To declare a read-only variable, you can use all uppercase letters for the variable name to indicate that it should not be modified.
+
+Here's an example of how to declare a constant variable in Python:
+
+```python
+MY_CONSTANT = 42
+```
+
+In this example, we declare a constant integer variable `MY_CONSTANT` using all uppercase letters to indicate that it should not be modified.
+
+**JavaScript:**
+- `const`: the variable is read-only and cannot be modified after initialization.
+- `let`: the variable is block-scoped and can be reassigned.
+
+Here's an example of how to declare a constant variable in JavaScript:
+
+```javascript
+const MY_CONSTANT = 42;
+```
+
+In this example, we declare a constant integer variable `MY_CONSTANT` using the `const` keyword to make it read-only.
+
+In summary, C++ and Java have the `const` keyword for declaring read-only variables, while Python uses all uppercase letters for read-only variables and JavaScript has the `const` keyword for read-only variables and the `let` keyword for block-scoped variables.
+
+
+variable scope:
+
+
+**Similarities:**
+- All four languages have block scope, which means that variables declared inside a block of code (such as a loop or conditional statement) are only accessible within that block.
+- All four languages have function scope, which means that variables declared inside a function are only accessible within that function.
+- All four languages have global scope, which means that variables declared outside of any function or block are accessible from anywhere in the program.
+
+**Differences:**
+- C++ and Java have class scope, which means that variables declared inside a class are accessible from any member function of that class. Python and JavaScript do not have class scope.
+- C++ has namespace scope, which means that variables declared inside a namespace are accessible from anywhere within that namespace. Java, Python, and JavaScript do not have namespace scope.
+- Python and JavaScript have module scope, which means that variables declared at the top level of a module are accessible from anywhere within that module. C++, Java, and Python have file scope, which means that variables declared outside of any function or class are accessible from anywhere within the file.
+-lexical scope
+Here's an example of variable scoping in C++:

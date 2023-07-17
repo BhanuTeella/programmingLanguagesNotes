@@ -67,6 +67,10 @@ C++: C++ is a statically-typed language, which means that the data type of a var
 
 Java: Java is also a statically-typed language, and has similar built-in data types to C++, including int, float,
  double, char, boolean, and others. Java also supports user-defined data types, such as class and interface.
+ primitive datatypes:
+    Java has 8 primitive scalar datataypes: int short long byte float double char boolean
+
+    String is a built-in class in Java, and is not a primitive scalar data type.
  
 
 Python: Python is a dynamically-typed language, which means that the data type of a variable is determined at runtime.
@@ -76,6 +80,22 @@ Python: Python is a dynamically-typed language, which means that the data type o
 JavaScript: JavaScript is also a dynamically-typed language, and has similar built-in data types to Python, 
 including number, string, boolean, array, and object. JavaScript also supports user-defined data types, 
 such as class and function.
+    
+let age = 30; // number
+let name = "Alice"; // string
+let isStudent = true; // boolean
+let car = null; // null
+let job; // undefined
+let id = Symbol("id"); // symbol
+let person = { name: "Bob", age: 25 }; // object
+
+
+
+
+
+
+
+
 
 The main differences between these languages with respect to data types are:
 
