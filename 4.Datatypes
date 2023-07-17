@@ -1,0 +1,96 @@
+C++: C++ is a statically-typed language, which means that the data type of a variable must be declared before it
+ can be used. C++ has several built-in data types, including int, float, double, char, bool, and others.
+  C++ also supports user-defined data types, such as struct and class.
+  Fundamental datatypes:
+    int: 4 bytes
+    usage: int a;
+        short: 2 bytes
+        usage: short a;
+        long: 4 bytes
+        usage: long a;
+        long long: 8 bytes
+        usage: long long a;
+    float: 4 bytes
+    usage: float a;
+    double: 8 bytes
+    usage: double a;
+    char: 1 byte
+    usage: char a;
+        for string: char a[10];
+    void : 0 bytes
+    usage: void a;
+
+  Derived datatypes:
+    array: collection of similar data types
+    usage: int a[10];
+
+    pointer: variable that stores address of another variable
+    usage:
+        int a=10;//a is a variable
+        int *p=&a; //p is a pointer to a
+        cout<<*p; //prints value of a
+
+    reference: another name of existing variable
+    usage: int a=10;
+        int &b=a; //b is a reference to a
+        cout<<b; //prints value of a
+
+    function: block of code that performs a specific task
+    usage: int add(int a, int b){
+        return a+b;
+    }
+
+    structure: collection of heterogeneous data types
+    usage: struct student{
+        int roll;
+        char name[10];
+    };
+
+    union: collection of heterogeneous data types but only one can be used at a time
+    usage: union student{
+        int roll;
+        char name[10];
+    };
+
+    enum: user defined data type that consists of integral constants
+    usage: enum day{
+        mon, tue, wed, thu, fri, sat, sun
+    };
+
+    data type modifiers:
+        signed: can store both positive and negative values-used for int
+        unsigned: can store only positive values-used for int
+        long: occupies twice the memory for int, 10 bytes for long double-used for int,double and char
+        short: occupies half the memory-used for int 
+
+
+
+Java: Java is also a statically-typed language, and has similar built-in data types to C++, including int, float,
+ double, char, boolean, and others. Java also supports user-defined data types, such as class and interface.
+ 
+
+Python: Python is a dynamically-typed language, which means that the data type of a variable is determined at runtime.
+ Python has several built-in data types, including int, float, bool, str, list, tuple, set, and dict.
+ Python also supports user-defined data types, such as class.
+
+JavaScript: JavaScript is also a dynamically-typed language, and has similar built-in data types to Python, 
+including number, string, boolean, array, and object. JavaScript also supports user-defined data types, 
+such as class and function.
+
+The main differences between these languages with respect to data types are:
+
+Static vs. dynamic typing: C++ and Java are statically-typed languages, which means that the data type of a variable
+ must be declared before it can be used, while Python and JavaScript are dynamically-typed languages, which means 
+ that the data type of a variable is determined at runtime.
+
+Built-in data types: While all four languages have similar built-in data types, there are some differences in the
+ details. For example, C++ has a long long data type for storing large integers, while Python has built-in support 
+ for complex numbers.
+
+User-defined data types: All four languages support user-defined data types, but the syntax and semantics of defining
+ and using these types can vary between languages.
+
+Type checking: In statically-typed languages like C++ and Java, the compiler can perform type checking at 
+compile-time to catch type errors before the program is run. In dynamically-typed languages like Python 
+and JavaScript, type checking is performed at runtime, which can lead to more flexibility but also more potential
+ for errors.
