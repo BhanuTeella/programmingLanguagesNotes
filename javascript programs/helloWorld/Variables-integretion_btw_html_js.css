@@ -1,0 +1,29 @@
+body {
+  display: grid;/* grid is used to make the body a grid-one below other */
+  justify-content: center;/* justify-content is used to align the content in the center- horizontal alignment */
+  height: 20vh;/* height is used to set the height of the body. The vh unit stands for "viewport height" and represents a percentage of the height of the viewport (the visible area of the browser window). So in this case, the body element will be set to a height that is 20% of the viewport height.*/
+  margin-top: 30vh;/* margin-top is used to set the top margin of the body */
+}
+.numbers{
+    font-family: 'Times New Roman', Times, serif;
+    color: #000;
+    font-size: 30px;
+
+}
+#number1 {
+    font-family: 'Times New Roman', Times, serif;/* font-family is used to set the font family of the input1 */
+    font-size: 20px;/* font-size is used to set the font size of the input1 */
+    color: rgb(246, 112, 63);
+}
+
+#number2 {
+    font: georgia;/* font is used to set the font of the input2 */
+    font-size: 20px;/* font-size is used to set the font size of the input2 */
+    color: rgb(246, 112, 63);
+}
+
+.result {
+    font-family: 'Times New Roman', Times, serif;/* font-family is used to set the font family of the result */
+    font-size: 30px;/* font-size is used to set the font size of the result */
+    color: rgb(117, 102, 255);
+}
