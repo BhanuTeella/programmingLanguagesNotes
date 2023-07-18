@@ -1,6 +1,13 @@
 {
     "configurations": [
         {
+            "type": "java",
+            "name": "BasicInputOutput",
+            "request": "launch",
+            "mainClass": "BasicInputOutput",
+            "projectName": "programmingLanguages_9d060891"
+        },
+        {
             "type": "chrome",
             "name": "http://127.0.0.1:3000/javascript programs/helloWorld/helloWorld.html",
             "request": "launch",
