@@ -1,0 +1,20 @@
+c++:
+arithmetic operators: +, -, *, /, %,  special-increament decreament++, --   no //
+relational operators: <, >, <=, >=, ==, !=  
+logical operators: &&, ||, !
+conditional operators: ?:
+assignment operators: =, +=, -=, *=, /=, %=, <<=, >>=, &=, ^=, |=
+precedence:
+1. ()
+2. ++, --, !, ~, sizeof, (type), *, &, (type)cast, new, delete
+3. *, /, %
+4. +, -
+5. <, <=, >, >=
+6.==, !=
+7. &&
+8. ||
+9. ?:
+10. =, +=, -=, *=, /=, %=, <<=, >>=, &=, ^=, |=
+11. ,
+
+
