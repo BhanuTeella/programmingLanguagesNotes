@@ -1,9 +1,13 @@
-let num1=Math.floor(Math.random() * 10) + 1;//generates random number between 1-10
-let num2=Math.floor(Math.random() * 10) + 1;
+let num1,num2;//declaring variables
+
+//variable assignment
+num1=Math.floor(Math.random() * 10) + 1;//generates random number between 1-10
+num2=Math.floor(Math.random() * 10) + 1;
 
 document.getElementById("number1").innerHTML=num1;
 document.getElementById("number2").innerHTML=num2;
 
+//dynamic initialization and use of various operators
 let sum=Number(num1)+Number(num2);
 let diff=Number(num1)-Number(num2);
 let mul=Number(num1)*Number(num2);
@@ -12,7 +16,11 @@ let remainder=Number(num1)%Number(num2)
 //no floor division in javascript
 let is_equal=num1==num2
 let power=Math.pow(num1,num2)
+
+//use of const-immutable
 const pi=3.14;
+
+
 let m_pi;
 m_pi=pi*num1
 

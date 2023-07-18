@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>// for power calculation- pow function
 using namespace std;
 int main()
 {
@@ -7,18 +8,20 @@ int main()
    int b=3;//dynamic initialization
 
    //use of arthmetic operators
-   int sum,sub,mul,div,mod;//multiple variable declaration
+   int sum,sub,mul,div,mod,power;//multiple variable declaration
     sum=a+b;
     sub=a-b;
     mul=a*b;
     div=a/b;//integer division 5/3=1. similar to floor function '//' in python
-    mod=a%b;//gives remainder
+    mod=a%b; //gives remainder
+    power=pow(a,b);//needs cmath library
     
     cout<<"sum="<<sum<<endl;// use of endline 
     cout<<"sub="<<sub<<endl;
     cout<<"mul="<<mul<<endl;
     cout<<"div="<<div<<endl;
     cout<<"mod="<<mod<<endl;
+    cout<<"pow="<<power<<endl;
 
     ++a;//increment operator  increases a by 1 
     --b;//decrement operator decreases b by 1

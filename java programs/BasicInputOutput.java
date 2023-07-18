@@ -1,25 +1,58 @@
 import java.util.Scanner;
 
 public class BasicInputOutput {
-    public static void main(String args[]){
+    public static void main(String[] args){
+
         /*Scanner sc= new Scanner(System.in);
         System.out.println("Enter a number: ");//println is used to print  and move to new line
         int a=sc.nextInt();
         System.out.print("You entered: "+a);//print is used to print in same line
         sc.close();*/
-        
+
         //Alternate implementation
-        try(Scanner sc= new Scanner(System.in)){
+        /*try(Scanner sc1= new Scanner(System.in)){
             System.out.println("Enter a number: ");//println is used to print  and move to new line
-            int a=sc.nextInt();
-            System.out.print("You entered: "+a);//print is used to print in same line
+            int b=sc1.nextInt();
+            System.out.print("You entered: "+b);//print is used to print in same line
         }
         catch(Exception e){
             System.out.println("Error: "+e.getMessage());
         }
         finally{
             System.out.println("Finally block executed");
-        }
+        }*/
+
+        //reading string
+        /*Scanner sc= new Scanner(System.in);
+        System.out.println("Enter your name: ");
+        String name=sc.nextLine();
+        System.out.println("Hello "+name);
+        sc.close();*/
+
+        //reading multiple values
+        Scanner sc= new Scanner(System.in);
+        System.out.println("Enter two numbers: ");
+        String input=sc.nextLine();
+        sc.close();
+        String[] numbers=input.split(" ");//input is stored as string and split() is used to split the string into multiple strings
+        int a=Integer.parseInt(numbers[0]);// need to convert string to integer
+        int b=Integer.parseInt(numbers[1]);
+        System.out.println("you entered : "+a+','+b);
+        
+
+        //formatted output using printf
+        //printf(similar to c) does not move to new line
+        /*int a=10;
+        float b=10.5f;
+        double c=10.25661651;
+        String name="Sourav";
+        System.out.printf("Hi %s! a = %d and b = %f\n",name,a,b);//%s for string %d for integer and %f for float and double
+        System.out.printf("c = %.2f",c);//%.2f means print only 2 decimal places
+        */
+
+
+
+
     }
     
 }
