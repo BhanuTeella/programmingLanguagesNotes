@@ -38,7 +38,7 @@ public class BasicInputOutput {
         int a=Integer.parseInt(numbers[0]);// need to convert string to integer
         int b=Integer.parseInt(numbers[1]);
         System.out.println("you entered : "+a+','+b);
-        
+        System.out.println(a+b);//prints sum of a and b
 
         //formatted output using printf
         //printf(similar to c) does not move to new line

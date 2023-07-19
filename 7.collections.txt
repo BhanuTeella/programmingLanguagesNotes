@@ -1,0 +1,26 @@
+C++:
+C++ provides several built-in container classes for storing collections of data, including arrays, vectors, lists, maps, and sets.
+Arrays are fixed-size collections of elements of the same data type.
+Vectors are dynamic arrays that can grow or shrink in size as needed.
+Lists are linked lists that can be used to store elements of different data types.
+Maps are associative arrays that store key-value pairs.
+Sets are collections of unique elements.
+
+Java:
+Java provides several built-in collection classes in the java.util package, including ArrayList, LinkedList, HashSet, TreeSet, HashMap, and TreeMap.
+ArrayList and LinkedList are dynamic arrays that can grow or shrink in size as needed.
+HashSet and TreeSet are sets that store unique elements.
+HashMap and TreeMap are maps that store key-value pairs.
+
+Python:
+Python provides several built-in collection classes, including lists, tuples, sets, and dictionaries.
+Lists are dynamic arrays that can grow or shrink in size as needed.
+Tuples are immutable collections of elements of different data types.
+Sets are collections of unique elements.
+Dictionaries are associative arrays that store key-value pairs.
+
+JavaScript:
+JavaScript provides several built-in collection classes, including arrays, sets, and maps.
+Arrays are dynamic arrays that can grow or shrink in size as needed.
+Sets are collections of unique elements.
+Maps are associative arrays that store key-value pairs.
