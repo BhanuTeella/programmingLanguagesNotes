@@ -17,5 +17,8 @@ public class strings {
         String str3=str1+" "+str2;
         System.out.println(str3);
 
+        //String length
+        System.out.println("String length:"+str3.length());
+
     }
 }
