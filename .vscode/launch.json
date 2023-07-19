@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "strings",
+            "request": "launch",
+            "mainClass": "strings",
+            "projectName": "programmingLanguages_9d060891"
+        },
+        {
+            "type": "java",
             "name": "collections",
             "request": "launch",
             "mainClass": "collections",
