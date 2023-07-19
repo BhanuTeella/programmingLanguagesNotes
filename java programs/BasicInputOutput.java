@@ -1,3 +1,4 @@
+import java.io.Console;
 import java.util.Scanner;
 
 public class BasicInputOutput {
@@ -30,7 +31,7 @@ public class BasicInputOutput {
         sc.close();*/
 
         //reading multiple values
-        Scanner sc= new Scanner(System.in);
+        /*Scanner sc= new Scanner(System.in);
         System.out.println("Enter two numbers: ");
         String input=sc.nextLine();
         sc.close();
@@ -38,7 +39,7 @@ public class BasicInputOutput {
         int a=Integer.parseInt(numbers[0]);// need to convert string to integer
         int b=Integer.parseInt(numbers[1]);
         System.out.println("you entered : "+a+','+b);
-        System.out.println(a+b);//prints sum of a and b
+        System.out.println(a+b);//prints sum of a and b*/
 
         //formatted output using printf
         //printf(similar to c) does not move to new line
@@ -49,6 +50,13 @@ public class BasicInputOutput {
         System.out.printf("Hi %s! a = %d and b = %f\n",name,a,b);//%s for string %d for integer and %f for float and double
         System.out.printf("c = %.2f",c);//%.2f means print only 2 decimal places
         */
+
+        //using console class
+        Console cons=System.console();
+        String name=cons.readLine("Enter your name: ");//like input() in python
+        char[] password=cons.readPassword("Enter your password: ");
+        System.out.println("Hello "+name);
+        System.out.println("Your password is: "+String.valueOf(password));//converts char array to string
 
 
 
