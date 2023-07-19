@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "controlFlow",
+            "request": "launch",
+            "mainClass": "controlFlow",
+            "projectName": "programmingLanguages_9d060891"
+        },
+        {
+            "type": "java",
             "name": "strings",
             "request": "launch",
             "mainClass": "strings",
