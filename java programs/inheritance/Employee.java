@@ -1,15 +1,18 @@
 package inheritance;
 
     public class Employee {
+        private static int employee_count=0;//static variable is shared by all objects of the class
         private String name;
         private double salary=1000.0;
 
         //constructor
         public Employee(String s, double x) {
+            
             name = s;
             salary = x;
+            employee_count++;
         }
-        
+
         //overloading in java
         //overloading is the process of creating multiple methods with same name but different parameters
         //overloading is used to implement the polymorphism in java
@@ -19,6 +22,7 @@ package inheritance;
         public Employee(String s) {//when user supply only name,this constructor is used to create the object. salary is set to default value
             name = s;
             salary = 1000.0;   //default salary
+            employee_count++;
         }
     
         public boolean setName(String s) {
