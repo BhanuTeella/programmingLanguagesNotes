@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "classTest",
+            "request": "launch",
+            "mainClass": "inheritance.classTest",
+            "projectName": "programmingLanguages_9d060891"
+        },
+        {
+            "type": "java",
+            "name": "Manager",
+            "request": "launch",
+            "mainClass": "Manager",
+            "projectName": "programmingLanguages_9d060891"
+        },
+        {
+            "type": "java",
+            "name": "DOB_class",
+            "request": "launch",
+            "mainClass": "DOB_class",
+            "projectName": "programmingLanguages_9d060891"
+        },
+        {
+            "type": "java",
             "name": "controlFlow",
             "request": "launch",
             "mainClass": "controlFlow",
