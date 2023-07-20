@@ -4,6 +4,13 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "interfaces.Main",
+            "projectName": "programmingLanguages_9d060891"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "Abstracts.Main",
             "projectName": "programmingLanguages_9d060891"
         },

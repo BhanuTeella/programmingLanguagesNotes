@@ -11,5 +11,10 @@ public class Main {
         System.out.println("Perimeter of rectangle is "+r.perimeter());
         c.display();// non abstract method of abstract class can be used by child class without overriding
         r.display();
+
+        rectangle r1=new rectangle(10,20);
+        rectangle r2=new rectangle(5,30);
+
+        System.out.println(r1.cmp(r2));
     }
 }
