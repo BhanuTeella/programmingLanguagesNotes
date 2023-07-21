@@ -23,4 +23,7 @@ public class person extends comparable {
             return 0;
         }
     }
+    public String toString(){
+        return("Name: "+name+"\nAge: "+age);
+    }
 }

@@ -48,5 +48,8 @@ package inheritance;
             System.out.println("Employee's bonus");
             return (percent / 100.0) * salary;
         }
+        public static int gettotalEmployeeCount(){
+            return employee_count;
+        }
     }
     
