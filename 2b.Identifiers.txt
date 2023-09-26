@@ -4,4 +4,4 @@ these are the rules for names of different parts of the program.
 Rules for identifiers:
 The rules for identifiers are quite similar across C++, Python, Java, and JavaScript. Here are some similarities and differences:
     1. All four programming languages allow identifiers to consist of letters, digits, and underscores.
-    2. C++ and Java require the first character of an identifier to be a letter or an underscore, while Python and JavaScript allow digits as the first character.
+    2. All four programming languages require the first character of an identifier to be a letter or an underscore.
